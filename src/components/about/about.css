@@ -1,0 +1,73 @@
+:root {
+  --h2Color: #079992;
+  --colorSubText: #2d2e32;
+}
+.containerAbout {
+  position: relative;
+  height: 57rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+  background-color: #fff;
+}
+.me-img {
+  position: relative;
+  background-color: #fff;
+  border-radius: 19px;
+}
+.img-desktop {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-self: center;
+  width: 450px;
+  height: 300px;
+  border-radius: 17px;
+}
+
+.img-side {
+  display: flex;
+  justify-content: flex-end;
+}
+.aboutMe {
+  width: 65%;
+  padding: 50px;
+}
+.aboutMe h2 {
+  color: var(--h2Color);
+  font-size: 17px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.aboutMe h3 {
+  color: var(--colorSubText);
+  font-size: 23px;
+  line-height: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.aboutMe p {
+  color: #767676;
+  line-height: 20px;
+}
+@media (max-width: 770px) {
+  .containerAbout {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutMe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .img-desktop {
+    width: 350px;
+    height: 250px;
+  }
+}

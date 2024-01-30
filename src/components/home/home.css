@@ -1,0 +1,162 @@
+:root {
+  --colorH1: #2d2e32;
+  --subText: #555555;
+  --hoverText: #079992;
+}
+
+.hi {
+  height: 50px;
+  width: 50px;
+}
+h1 {
+  font-size: 55px;
+  line-height: 66px;
+  color: var(--colorH1);
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  height: 40rem;
+}
+
+.subContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.subContainer p {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+  color: var(--subText);
+  font-family: "Montserrat", sans-serif;
+}
+.content__img {
+  background-image: url(../../assets/img/profile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2px #000;
+  order: 1;
+  justify-self: center;
+  width: 250px;
+  height: 250px;
+  animation: profile__animate 8s ease-in-out infinite 1s;
+}
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+.social span {
+  cursor: pointer;
+  margin-right: 10px;
+}
+.social {
+  text-align: start;
+  margin: 10px;
+}
+.social span:hover {
+  color: var(--hoverText);
+}
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+}
+.skillsBackend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+li {
+  cursor: pointer;
+}
+li img {
+  width: 7rem;
+  height: 5rem;
+  transition: all ease-in-out 0.3s;
+}
+li img:hover {
+  transform: translateY(-1rem);
+}
+.skillsBackend p {
+  margin-right: 2rem;
+  padding-right: 2rem;
+  border-right: 2px solid rgb(45, 46, 50, 0.5);
+  font-weight: 600;
+  color: var(--colorH1);
+}
+.skills p {
+  margin-right: 2rem;
+  padding-right: 2rem;
+  border-right: 2px solid rgb(45, 46, 50, 0.5);
+  font-weight: 600;
+  color: var(--colorH1);
+}
+@media (max-width: 770px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 50rem;
+  }
+  .container h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .subContainer {
+    width: 100%;
+  }
+  .subContainer p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .social {
+    text-align: center;
+  }
+  .skills {
+    flex-direction: column;
+  }
+  .skills p {
+    margin-right: 0;
+    border-bottom: 2px solid rgb(45, 46, 50, 0.5);
+    border-right: none;
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+  ul {
+    justify-content: center;
+    gap: 40px;
+  }
+  .skillsBackend {
+    flex-direction: column;
+    height: 20rem;
+  }
+  .skillsBackend p {
+    margin-right: 0;
+    border-bottom: 2px solid rgb(45, 46, 50, 0.5);
+    border-right: none;
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+}
