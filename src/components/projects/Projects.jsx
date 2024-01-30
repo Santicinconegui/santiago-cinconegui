@@ -19,10 +19,11 @@ const Projects = () => {
           title="Confiteria Marcari"
           img={marcari}
           date="(August 2023)"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          description="For Confiteria Marcari, I have developed an attractive and functional website using technologies such as React and CSS, I have created a digital experience that captures the essence and charm of this iconic bakery-pastry shop in my city. The combination of modern technologies and captivating design allows visitors to explore Confiteria Marcari products and services in an immersive and attractive way.
+"
           techno1="React"
           techno2="Javascript"
-          techno3="SCSS"
+          techno3="CSS"
           code="https://github.com/Santicinconegui/confiteria-marcari"
           demo="https://confiteria-marcari.vercel.app/"
           scrollY="-75%"
@@ -32,7 +33,7 @@ const Projects = () => {
           title="Bookstore"
           date="(December 2022)"
           img={bookstore}
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          description="I have developed a book ecommerce that uses an API to access a wide selection of literary titles. This project was built with React, CSS, Express, and an integration with the Stripe API. Additionally, I have implemented a registration system through Google and have taken advantage of the capabilities of Firebase to enhance the functionality of the site. The result is a robust and attractive platform that allows users to explore, buy and enjoy a wide range of books in an agile and secure way."
           techno1="React"
           techno2="Javascript"
           techno3="CSS"

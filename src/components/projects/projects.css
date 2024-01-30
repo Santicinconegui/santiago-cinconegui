@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 100rem;
+  height: 70rem;
 }
 .portfolio h3 {
   color: var(--colorSubText);
