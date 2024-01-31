@@ -69,6 +69,13 @@ const Projects = () => {
           icon="🛒"
           cName="reversed-proj"
         /> */}
+        <h2
+          style={{
+            textDecoration: "underline",
+            fontWeight: "1000",
+          }}>
+          ¡THE REST OF THE PROJECTS WILL BE SEEN SOON!
+        </h2>
       </div>
     </div>
   );
