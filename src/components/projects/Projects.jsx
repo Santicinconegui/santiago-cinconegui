@@ -73,6 +73,7 @@ const Projects = () => {
           style={{
             textDecoration: "underline",
             fontWeight: "1000",
+textAlign:"center",
           }}>
           ¡THE REST OF THE PROJECTS WILL BE SEEN SOON!
         </h2>
