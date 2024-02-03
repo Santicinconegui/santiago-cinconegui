@@ -10,8 +10,7 @@ const Projects = () => {
       <div className="portfolio">
         <h2>PORTFOLIO</h2>
         <h3>
-          Every project I have done is below. Every project I have done is below
-          💻.
+          Some of the projects I have done are below 💻.
         </h3>
       </div>
       <div className="projectsGrid">
