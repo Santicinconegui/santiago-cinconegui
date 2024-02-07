@@ -9,9 +9,7 @@ const Projects = () => {
     <div className="containerProjects " id="Project">
       <div className="portfolio">
         <h2>PORTFOLIO</h2>
-        <h3>
-          Some of the projects I have done can be seen below💻.
-        </h3>
+        <h3>Some of the projects I have done can be seen below💻.</h3>
       </div>
       <div className="projectsGrid">
         <ProCard
@@ -72,11 +70,7 @@ const Projects = () => {
           style={{
             textDecoration: "underline",
             fontWeight: "1000",
-<<<<<<< HEAD
             textAlign: "center",
-=======
-textAlign:"center",
->>>>>>> 117ab82cb22b2228b49be6b16e47d1a2d2e20099
           }}>
           ¡THE REST OF THE PROJECTS WILL BE SEEN SOON!
         </h2>
