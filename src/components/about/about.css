@@ -53,10 +53,38 @@
   color: #767676;
   line-height: 20px;
 }
-@media (max-width: 770px) {
+@media (max-width: 1350px) {
   .containerAbout {
     display: flex;
     flex-direction: column;
+    height: 60rem;
+  }
+  .aboutMe {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 790px) {
+  .containerAbout {
+    height: 70rem;
+  }
+  .aboutMe {
+    width: 100%;
+  }
+  .img-desktop {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media (max-width: 550px) {
+  .containerAbout {
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
   }
   .aboutMe {
     width: 100%;
@@ -69,5 +97,10 @@
   .img-desktop {
     width: 350px;
     height: 250px;
+  }
+}
+@media (max-width: 470px) {
+  .containerAbout {
+    height: 60rem;
   }
 }

@@ -160,3 +160,16 @@ li img:hover {
     padding-bottom: 2rem;
   }
 }
+@media (max-width: 1300px) {
+  .skillsBackend {
+    height: 20rem;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    height: 65rem;
+  }
+  .skillsBackend {
+    height: 30rem;
+  }
+}
